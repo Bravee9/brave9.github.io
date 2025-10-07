@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brave9 - Trang cá nhân & Tài liệu THPTQG</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- MathJax for LaTeX rendering (will work when deployed to GitHub Pages) -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$']],
+                displayMath: [['$$', '$$']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" id="MathJax-script" async></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">Brave9</h1>
+                <ul class="nav-links">
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#materials">Tài liệu</a></li>
+                    <li><a href="#exercises">Bài tập</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container">
+                <h2>Chào mừng đến với trang cá nhân của Brave9</h2>
+                <p>Tài liệu và bài tập hỗ trợ ôn thi THPTQG</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2>Giới thiệu</h2>
+                <div class="about-content">
+                    <p>Xin chào! Tôi là Brave9, một người đam mê giảng dạy và chia sẻ kiến thức.</p>
+                    <p>Trang web này được tạo ra với mục đích hỗ trợ các em học sinh trong quá trình ôn tập và chuẩn bị cho kỳ thi THPT Quốc Gia.</p>
+                    <p>Tất cả tài liệu và bài tập được biên soạn bằng LaTeX để đảm bảo chất lượng và độ chính xác cao nhất.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Materials Section -->
+        <section id="materials">
+            <div class="container">
+                <h2>Tài liệu học tập</h2>
+                <div class="materials-grid">
+                    <div class="material-card">
+                        <h3>Toán học</h3>
+                        <p>Tài liệu ôn tập đầy đủ các chương trình Toán THPT</p>
+                        <ul>
+                            <li>Đại số</li>
+                            <li>Giải tích</li>
+                            <li>Hình học</li>
+                        </ul>
+                    </div>
+                    <div class="material-card">
+                        <h3>Vật lý</h3>
+                        <p>Công thức và lý thuyết Vật lý cơ bản</p>
+                        <ul>
+                            <li>Cơ học</li>
+                            <li>Nhiệt học</li>
+                            <li>Điện - Từ</li>
+                        </ul>
+                    </div>
+                    <div class="material-card">
+                        <h3>Hóa học</h3>
+                        <p>Tổng hợp kiến thức Hóa học THPT</p>
+                        <ul>
+                            <li>Hóa vô cơ</li>
+                            <li>Hóa hữu cơ</li>
+                            <li>Bài tập tính toán</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Exercises Section -->
+        <section id="exercises">
+            <div class="container">
+                <h2>Bài tập mẫu</h2>
+                <div class="exercise-content">
+                    <h3>Bài tập Toán học - Giải tích</h3>
+                    <div class="exercise">
+                        <h4>Bài 1: Tính đạo hàm</h4>
+                        <p>Cho hàm số $f(x) = x^3 - 3x^2 + 2x + 1$. Tính $f'(x)$.</p>
+                        <details>
+                            <summary>Lời giải</summary>
+                            <div class="solution">
+                                <p>Áp dụng công thức đạo hàm cơ bản:</p>
+                                <p>$$f'(x) = 3x^2 - 6x + 2$$</p>
+                            </div>
+                        </details>
+                    </div>
+
+                    <div class="exercise">
+                        <h4>Bài 2: Tính tích phân</h4>
+                        <p>Tính tích phân: $\displaystyle I = \int_{0}^{1} x^2 \, dx$</p>
+                        <details>
+                            <summary>Lời giải</summary>
+                            <div class="solution">
+                                <p>Ta có:</p>
+                                <p>$$I = \int_{0}^{1} x^2 \, dx = \left[\frac{x^3}{3}\right]_{0}^{1} = \frac{1}{3} - 0 = \frac{1}{3}$$</p>
+                            </div>
+                        </details>
+                    </div>
+
+                    <h3>Bài tập Vật lý - Cơ học</h3>
+                    <div class="exercise">
+                        <h4>Bài 3: Chuyển động thẳng đều</h4>
+                        <p>Một vật chuyển động thẳng đều với vận tốc $v = 10 \, m/s$. Quãng đường vật đi được sau thời gian $t = 5s$ là bao nhiêu?</p>
+                        <details>
+                            <summary>Lời giải</summary>
+                            <div class="solution">
+                                <p>Công thức: $s = v \cdot t$</p>
+                                <p>$$s = 10 \times 5 = 50 \, (m)$$</p>
+                                <p><strong>Đáp án:</strong> Quãng đường là 50m.</p>
+                            </div>
+                        </details>
+                    </div>
+
+                    <h3>Bài tập Hóa học - Phương trình phản ứng</h3>
+                    <div class="exercise">
+                        <h4>Bài 4: Cân bằng phương trình</h4>
+                        <p>Cân bằng phương trình hóa học sau:</p>
+                        <p>$$\text{Fe} + \text{HCl} \rightarrow \text{FeCl}_2 + \text{H}_2$$</p>
+                        <details>
+                            <summary>Lời giải</summary>
+                            <div class="solution">
+                                <p>Phương trình cân bằng:</p>
+                                <p>$$\text{Fe} + 2\text{HCl} \rightarrow \text{FeCl}_2 + \text{H}_2$$</p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Liên hệ</h2>
+                <div class="contact-content">
+                    <p>Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào, xin vui lòng liên hệ qua:</p>
+                    <ul>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/Bravee9" target="_blank">@Bravee9</a></li>
+                        <li><strong>Email:</strong> <a href="mailto:contact@brave9.github.io">contact@brave9.github.io</a></li>
+                    </ul>
+                    <p>Chúc các em học tập tốt và đạt kết quả cao trong kỳ thi THPTQG!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Brave9. Tất cả tài liệu được biên soạn bằng LaTeX.</p>
+        </div>
+    </footer>
+</body>
+</html>
